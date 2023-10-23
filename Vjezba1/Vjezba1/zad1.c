@@ -2,7 +2,7 @@
 zapisanih u datoteci.Nakon toga potrebno je dinami?ki alocirati prostor za niz struktura
 studenata(ime, prezime, bodovi) i u?itati iz datoteke sve zapise.Na ekran ispisati ime,
 prezime, apsolutni i relativni broj bodova.
-Napomena: Svaki redak datoteke sadrûi ime i prezime studenta, te broj bodova na kolokviju.
+Napomena: Svaki redak datoteke sadr≈æi ime i prezime studenta, te broj bodova na kolokviju.
 relatvan_br_bodova = br_bodova / max_br_bodova * 100*/
 
 
@@ -87,8 +87,8 @@ int readStudentsFromFile(student* base) {
 }
 
 int printStudentsFromFile(student* base, int noRows) {
-	double relPoints;
-	int i;
+	double relPoints = 0.0;
+	int i = 0;
 
 	for (i = 0; i < noRows; i++) {
 		relPoints = ((double)base[i].points / MAXNOPOINTS) * 100;
