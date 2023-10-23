@@ -54,7 +54,7 @@ int readNoRows() {
 	studentsFile = fopen("students.txt", "r");
 
 	if (!studentsFile) {
-		printf("File not open");
+		printf("File not opened");
 		return -1;
 	}
 
