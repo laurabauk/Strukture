@@ -32,7 +32,7 @@ qPosition createQNode(position treeNode);
 
 
 int main() {
-	//treeNode treeHead = { 0,NULL,NULL };		//mozemo bez head-a her nam je redudantan
+	//treeNode treeHead = { 0,NULL,NULL };
 	position root = NULL;
 	int rootVal = 0;
 
