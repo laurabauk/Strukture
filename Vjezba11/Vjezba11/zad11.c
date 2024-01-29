@@ -1,4 +1,4 @@
-/* 11. Prepraviti zadatak 10 na na?in da se formira hash tablica država.Tablica ima 11 mjesta, a
+/* 11. Prepraviti zadatak 10 na način da se formira hash tablica država.Tablica ima 11 mjesta, a
 funkcija za preslikavanje ključ računa da se zbraja ASCII vrijednost prvih pet slova države zatim
 računa ostatak cjelobrojnog dijeljenja te vrijednosti s veli?inom tablice.Države s istim ključem se
 pohranjuju u vezanu listu sortiranu po nazivu države. Svaki čvor vezane liste sadrži stablo
