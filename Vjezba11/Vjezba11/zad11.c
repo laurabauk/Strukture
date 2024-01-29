@@ -1,7 +1,7 @@
-?/* 11. Prepraviti zadatak 10 na na?in da se formira hash tablica dr얷va.Tablica ima 11 mjesta, a
-funkcija za preslikavanje klju? ra?una da se zbraja ASCII vrijednost prvih pet slova dr얷ve zatim
-ra?una ostatak cjelobrojnog dijeljenja te vrijednosti s veli?inom tablice.Dr얷ve s istim klju?em se
-pohranjuju u vezanu listu sortiranu po nazivu dr얷ve.Svaki ?vor vezane liste sadr엍 stablo
+/* 11. Prepraviti zadatak 10 na na?in da se formira hash tablica dr탑ava.Tablica ima 11 mjesta, a
+funkcija za preslikavanje klju? ra?una da se zbraja ASCII vrijednost prvih pet slova dr탑ave zatim
+ra?una ostatak cjelobrojnog dijeljenja te vrijednosti s veli?inom tablice.Dr탑ave s istim klju?em se
+pohranjuju u vezanu listu sortiranu po nazivu dr탑ave.Svaki ?vor vezane liste sadr탑i stablo
 gradova sortirano po broju stanovnika, zatim po nazivu grada. */
 
 #define _CRT_SECURE_NO_WARNINGS
